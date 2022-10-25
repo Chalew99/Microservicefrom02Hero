@@ -11,7 +11,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  ImageName: 'wolfgangofner/customerapi:$(Build.BuildId)'
+  ImageName: 'MSDemo/customerapi:$(Build.BuildId)'
 
 stages:
 - stage: Build

@@ -11,7 +11,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  ImageName: 'wolfgangofner/orderapi:$(Build.BuildId)'
+  ImageName: 'MSDemo/orderapi:$(Build.BuildId)'
 
 stages:
 - stage: Build
